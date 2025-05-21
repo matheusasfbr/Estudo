@@ -102,4 +102,17 @@ a:visited{
         align-items: center;
     }
 
+    /*Estilizando o Menu*/
+
+    #mobileNavList{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    #mobileNavList .list{
+        list-style: none;
+        text-align: center;
+    }
 }
